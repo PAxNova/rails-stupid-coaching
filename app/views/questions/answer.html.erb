@@ -1,8 +1,12 @@
 <!-- app/views/questions/answer.html.erb -->
 <div class="container">
-  <h1 class="my-4">Your question was:</h1>
-  <p class="lead"><%= @question %></p>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h1 class="my-4 text-center">Your question was:</h1>
+      <p class="lead text-center"><%= @question %></p>
 
-  <h1 class="my-4">Coach's answer:</h1>
-  <p class="lead"><%= @answer %></p>
+      <h1 class="my-4 text-center">Coach's answer:</h1>
+      <p class="lead text-center"><%= @answer %></p>
+    </div>
+  </div>
 </div>
